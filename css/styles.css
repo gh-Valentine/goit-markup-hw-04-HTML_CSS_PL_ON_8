@@ -44,6 +44,10 @@ img {
   margin: 0 auto;
 }
 
+*:focus {
+  outline: none;
+}
+
 /* ==== HEADER ==== */
 
 .header {
@@ -342,6 +346,12 @@ img {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   align-items: center;
+  fill: #afb1b8;
+}
+
+.our-clients-list-svg {
+  min-width: auto;
+  min-height: 60px;
 }
 
 .our-clients-list-background:hover,
@@ -350,10 +360,6 @@ img {
 .our-clients-list-svg:focus {
   fill: var(--secondary-color);
   border-color: var(--secondary-color);
-}
-
-.our-clients-list-svg {
-  fill: #afb1b8;
 }
 
 /* ==== END MAIN ==== */
